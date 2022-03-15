@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/svg" sizes="32x32" href="./images/Shared/Giggle.svg">
+    
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>My Joke Collection</title>
+    <meta name="description" content="Collection of my favorite jokes">
+
+    <script src="./index.js" defer></script>
+    <script src="./jokes.js" defer></script>
+</head>
+<body id="computer-page">
+    <header>
+        <button id="hamburger" class="hamburger" aria-controls="navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+        <nav id="navbar">
+            <ul id="hamburger-menu" class="underline-indicators" data-visible="false" >
+                <li><a class="nav-items" href="home.html"><span aria-hidden="true"></span>Home</a></li>
+                <li class="active"><a class="nav-items" href="computer.html"><span aria-hidden="true"></span>Computer</a></li>
+                <li><a class="nav-items" href="sciencey.html"><span aria-hidden="true"></span>Sciencey</a></li>
+                <li><a class="nav-items" href="things.html"><span aria-hidden="true"></span>Things</a></li>
+                <li><a class="nav-items" href="misc.html"><span aria-hidden="true"></span>Misc.</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="computer" class="columns"></div>
+    </main>
+    <footer>
+        All jokes are copied from Facebook. Credit goes to the authors whoever and wherever they are. <br>
+        Thanks a lot for all the smiles and chuckles they brought!
+    </footer>  
+</body>
+</html>
