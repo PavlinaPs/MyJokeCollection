@@ -9,7 +9,7 @@ const computerJokesArray = [
     },
     {
         img: "./images/IT/insert-USB.jpg",
-        alt: "when you insert an USB, it's two times the wrong way, the third time fits."
+        alt: "when you insert an USB, it's two times the wrong way, the third time finally fits."
     },
     {
         img: "./images/IT/e-mail-attachment.jpg",
@@ -33,7 +33,15 @@ const computerJokesArray = [
     },
     {
         img: "./images/IT/IT-support.jpg",
-        alt: "Two little dogs in front of a baking sheet full of cookies: 'We are from IT support. We are here to delete your cookies."
+        alt: "Two little dogs in front of a baking sheet full of cookies: 'We are from IT support. We are here to delete your cookies.' "
+    },
+    {
+        img: "./images/IT/different-error-message.jpg",
+        alt: "An IT guy is happy: Wow, a different error message... Finally some progress!"
+    },
+    {
+        img: "./images/IT/too-many-tabs-open.jpg",
+        alt: "A guy to an IT guy: Close another tab. You can do it. Be strong, I'm here for you. Close that tab. You don't need 290 tabs open."
     }
 ];
 
@@ -56,11 +64,11 @@ const scienceyJokesArray = [
     },
     {
         img: "./images/Sciencey/doppler-cars.jpg",
-        alt: "Doppler effect cars - comming car is blue, leaving car is red."
+        alt: "Doppler effect cars - coming car is blue, leaving car is red."
     },
     {
         img: "./images/Sciencey/engineering-flowchart.jpg",
-        alt: "Engineering flochart. Everything is fixable with duct tape of WD40 spray."
+        alt: "Engineering flowchart. Everything is fixable with duct tape or WD40 spray."
     },
     {
         img: "./images/Sciencey/globe-holder.jpg",
@@ -68,7 +76,7 @@ const scienceyJokesArray = [
     },
     {
         img: "./images/Sciencey/imaginary-friend.jpg",
-        alt: "a number six found an imaginary friend, a square root of -1."
+        alt: "A number six found an imaginary friend, a square root of -1."
     },
     {
         img: "./images/Sciencey/joking-scientist.jpg",
@@ -80,7 +88,7 @@ const scienceyJokesArray = [
     },
     {
         img: "./images/Sciencey/mintosis.jpg",
-        alt: "Two mints performing mitosis."
+        alt: "Two mints performing mintosis."
     },
     {
         img: "./images/Sciencey/para-normal-distribution.jpg",
@@ -88,7 +96,7 @@ const scienceyJokesArray = [
     },
     {
         img: "./images/Sciencey/petrified.jpg",
-        alt: "A tree was firs afraid and then petrified."
+        alt: "A tree was first afraid and then petrified."
     },
     {
         img: "./images/Sciencey/pyramids-conspiracy.jpg",
@@ -96,7 +104,7 @@ const scienceyJokesArray = [
     },
     {
         img: "./images/Sciencey/radiant-Marie.jpg",
-        alt: "Marie Curie Sklodowska looking every day more radiant/"
+        alt: "Marie Curie Sklodowska looking every day more radiant."
     },
     {
         img: "./images/Sciencey/Schrodingers-cupboard.jpg",
@@ -108,7 +116,7 @@ const scienceyJokesArray = [
     },
     {
         img: "./images/Sciencey/sin-cos-cow.jpg",
-        alt: "Picture of four bulls with horns in shapes of trigonometric functions' graphs."
+        alt: "Picture of four bulls with horns in shapes of trigonometric functions"
     },
     {
         img: "./images/Sciencey/dinos-extinction.jpg",
@@ -120,12 +128,28 @@ const scienceyJokesArray = [
     },
     {
         img: "./images/Sciencey/Velociraptor-formula.jpg",
-        alt: "Velociraptor the dinosaur's velocity formula."
+        alt: "Velociraptor and the dinosaur's velocity formula."
     },
     {
         img: "./images/Sciencey/mmm-pi.jpg",
         alt: "Mmm, pie licence plate."
     },
+    {
+        img: "./images/Sciencey/invasive-Larry.jpg",
+        alt: "Three flowers and one other plant drinking coffee. One flower says:'Oh, don't mind Larry, he is a little invasive.'"
+    },
+    {
+        img: "./images/Sciencey/naming-exoplanets.jpg",
+        alt: "A scientist: Who the hell is in charge of naming new planets? Next picture: a cat on a keyboard."
+    },
+    {
+        img: "./images/Sciencey/pizza-oven-layout.jpg",
+        alt: "Two pizzas split in halves and arranged on oven rack, so they all fit. Caption: geniuses are often rejected by society."
+    },
+    {
+        img: "./images/Sciencey/shelving-in-geology-section.jpg",
+        alt: "In the library, geology section, selves are not even, as geologic layers"
+    }
 ];
 
 const thingsArray = [
@@ -139,7 +163,7 @@ const thingsArray = [
     },
     {
         img: "./images/things/Pirana-zipper.jpg",
-        alt: "A zipper looking like a pirana"
+        alt: "A red zipper looking like a pirana"
     },
     {
         img: "./images/things/Smiling-closet.jpg",
@@ -162,11 +186,11 @@ const miscArray = [
     },
     {
         img: "./images/Misc/Coma.jpg",
-        alt: "In hospital: don't talk to me, when my wife comes to visit, she thinks I'm in coma."
+        alt: "In a hospital room one man to another: don't talk to me, when my wife comes to visit, she thinks I'm in coma."
     },
     {
         img: "./images/Misc/Dead-snow-man.jpg",
-        alt: "A snowman positioned on a car's windshield looking as fallen from above."
+        alt: "A snowman positioned on a car's windshield looking as fallen corps from above."
     },
     {
         img: "./images/Misc/Fat-dog.jpg",
@@ -178,11 +202,11 @@ const miscArray = [
     },
     {
         img: "./images/Misc/Ja-pju-vsjo.jpg",
-        alt: "A Duolingo task: translate to russian 'I dring everything'."
+        alt: "A Duolingo task: translate to russian 'I dring everything', and two Duolingo messeges after that: 'Good job!' and 'Continue'"
     },
     {
         img: "./images/Misc/Kill-only-Tim.jpg",
-        alt: "'e' missing from a sing saying 'Kill only time'."
+        alt: "County of Union, New Jersey sign: Take only photos, leave only footprints, kill only tim, please stay on the trails. 'e' in time is missing."
     },
     {
         img: "./images/Misc/Married-mummies.jpg",
@@ -198,7 +222,7 @@ const miscArray = [
     },
     {
         img: "./images/Misc/Pandemia.jpg",
-        alt: "Word pandemic is derived from word panda, because people in lockdown eat 12 hours like pandas."
+        alt: "Word pandemic is derived from word panda, because people in lockdown eat 12 hours like pandas do."
     },
     {
         img: "./images/Misc/Peeled.jpg",
@@ -206,7 +230,7 @@ const miscArray = [
     },
     {
         img: "./images/Misc/Screem-lego.jpg",
-        alt: "The famous painting 'scream' originally has another painting under it - the screaming person stepped on lego block."
+        alt: "The famous painting 'scream' originally had another painting under it showing that the screaming person stepped on a lego block."
     },
     {
         img: "./images/Misc/Snail-gargle.jpg",
@@ -214,11 +238,11 @@ const miscArray = [
     },
     {
         img: "./images/Misc/Spadne-vsechno.jpg",
-        alt: "A sing in a Czech-Vietnamese shop - we will help you or everything falls down!"
+        alt: "A sign in a Czech-Vietnamese shop - we will help you or everything falls down!"
     },
     {
         img: "./images/Misc/Stephen-King.jpg",
-        alt: "Young Stephen King reading his story from vacation to the class"
+        alt: "Young Stephen King reading his story from vacation to the class who looks terrifies."
     },
     {
         img: "./images/Misc/Throw-it.jpg",
@@ -226,12 +250,28 @@ const miscArray = [
     },
     {
         img: "./images/Misc/Victim.jpg",
-        alt: "Wrong victim position line."
+        alt: "A policeman is looking at hopscotch line instead the victim position line: 'Looks like the victim was brutally sliced in multiple pieces.'"
     },
     {
         img: "./images/Misc/Langos.jpg",
-        alt: "Picture of langos with a scull on it."
+        alt: "Picture of langos with a scull shape on it."
     },
+    {
+        img: "./images/Misc/Pumpkin-of-wife.jpg",
+        alt: "An old husband brings a cup of tea in the garden, announcing it to a big pumpkin, not his wife, who is dressed in orange pants."
+    },
+    {
+        img: "./images/Misc/Select-your-spot.jpg",
+        alt: "A bird at a computer, selecting his spot in the V shape, where he will be flying"
+    },
+    {
+        img: "./images/Misc/Suspecting-son.jpg",
+        alt: "A boy with dirty mouth and stained clothes to another: How did my mom know I went to get ice cream after school? She's either placed a tracking device on me, or she's tracking my phone."
+    },
+    {
+        img: "./images/Misc/Teacher-in-mobile-frame.jpg",
+        alt: "A teacher in a class teaching from a dummy smartphone window: Looks silly but the kids are finally listening to her."
+    }
 ];
 
 let arrayOfAllJokes = [computerJokesArray, scienceyJokesArray, thingsArray, miscArray];
